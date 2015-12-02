@@ -22,13 +22,7 @@ a {
 }
 
 main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.search-form {
-  height: 458px;
+  height: 550px;
 }
 
 main img {
