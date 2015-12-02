@@ -42,18 +42,18 @@ footer {
 
 .left-group, .right-group {
   height: 35px;
-  width: 260px;
+  width: 220px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .left-group {
   float: left;
+  margin-left: 25px;
 }
 
 .right-group {
   float: right;
+  margin-right: 25px;
 }
