@@ -12,13 +12,23 @@ header a {
   margin-right: 20px;
 }
 
-.upperRight {
+.upper-right {
   float: right;
 }
 
 a {
-  color: black;
+  color: #222;
   text-decoration: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form {
+  height: 458px;
 }
 
 main img {
@@ -28,16 +38,28 @@ main img {
 
 footer {
   background-color: lightgrey;
+  font-family: arial, sans-serif;
+  font-size: 13;
 }
 
 .linkContainer {
   overflow: hidden;
 }
 
-.leftGroup {
+.left-group, .right-group {
+  height: 35px;
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.left-group {
   float: left;
 }
 
-.rightGroup {
+.right-group {
   float: right;
 }
