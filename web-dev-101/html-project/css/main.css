@@ -4,56 +4,16 @@ body {
   padding: 0;
 }
 
-header {
-  overflow: hidden;
-}
-
-header a {
-  margin-right: 20px;
-}
-
-.upper-right {
-  float: right;
-}
-
 a {
-  color: #222;
   text-decoration: none;
+  color: #222;
+}
+
+header ul {
+  list-style-type: none;
 }
 
 main {
-  height: 550px;
-}
-
-main img {
-  height: 92px;
-  width: 272px;
-}
-
-footer {
-  background-color: lightgrey;
-  font-family: arial, sans-serif;
-  font-size: 13;
-}
-
-.linkContainer {
-  overflow: hidden;
-}
-
-.left-group, .right-group {
-  height: 35px;
-  width: 260px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.left-group {
-  float: left;
-}
-
-.right-group {
-  float: right;
+  width: 100%;
+  margin: 0 auto;
 }
