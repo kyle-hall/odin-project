@@ -9,11 +9,40 @@ a {
   color: #222;
 }
 
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
 header ul {
   list-style-type: none;
 }
 
 main {
+  position: absolute;
+  top: 275px;
+  left: 650px;
+}
+
+.query-box {
+  width: 75%;
+}
+
+footer {
   width: 100%;
-  margin: 0 auto;
+  background-color: lightgrey;
+  position: absolute;
+  bottom: 0;
+}
+
+.linkContainer {
+  overflow: hidden;
+}
+
+.left-group {
+  float: leftt;
+}
+
+.right-group {
+  float: right;
 }
