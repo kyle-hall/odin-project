@@ -37,6 +37,16 @@ main {
   left: 650px;
 }
 
+main img {
+  height: 92px;
+  width: 272px;
+}
+
+.form-wrapper {
+  width: 1139px;
+  height: 129px;
+}
+
 .query-box {
   width: 75%;
   margin-top: 10px;
@@ -52,7 +62,8 @@ main {
 
 footer {
   width: 100%;
-  background-color: lightgrey;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
   position: absolute;
   bottom: 0;
 }
