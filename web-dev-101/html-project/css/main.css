@@ -9,9 +9,22 @@ a {
   color: #222;
 }
 
-header nav {
+header {
   float: right;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
   margin-top: 15px;
+}
+
+nav * {
+  margin-right: 10px;
+}
+
+nav input {
+  border-radius: 1px;
 }
 
 header ul {
@@ -26,6 +39,15 @@ main {
 
 .query-box {
   width: 75%;
+  margin-top: 10px;
+}
+
+.submits {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer {
@@ -36,13 +58,16 @@ footer {
 }
 
 .linkContainer {
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
 }
 
-.left-group {
-  float: leftt;
+.linkContainer a {
+  margin-right: 12px;
 }
 
-.right-group {
-  float: right;
+.left-group, .right-group {
+  display: flex;
+  align-items: center;
 }
