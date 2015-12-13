@@ -11,3 +11,6 @@ function threesAndFives (upperBound) {
   }
   return sum;
 }
+
+var result = threesAndFives(1000);
+console.log(result);

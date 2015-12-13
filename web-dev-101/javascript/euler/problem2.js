@@ -2,7 +2,7 @@
 function evenFibonacci(upperBound) {
   var previous = 2,
       beforeThat = 1,
-      current = 0
+      current = 0,
       sum = 2;
 
   while (current < upperBound) {
@@ -17,3 +17,6 @@ function evenFibonacci(upperBound) {
   return sum;
 
 }
+
+var result = evenFibonacci(4000000);
+console.log(result);
